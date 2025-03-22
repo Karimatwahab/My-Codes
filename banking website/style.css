@@ -1,0 +1,85 @@
+ /* {
+      background-color: cyan;
+ }*/
+
+ body {
+      background-color: #f1f1f1;
+ }
+
+ button {
+      font-size: 30px;
+ }
+
+ h1,
+ h2 {
+      color: darkslateblue;
+ }
+
+ #signup {
+      background-color: blueviolet;
+      color: #f1faee;
+ }
+
+ span {
+      color: #457b9d;
+ }
+
+ .tag {
+      background-color: red;
+      color: white;
+      font-size: 16px;
+ }
+
+ .post a {
+      color: #457b9d;
+      text-decoration: none;
+      font-weight: 700;
+ }
+
+
+ footer a {
+      color: deeppink;
+ }
+
+ h2+button {
+      background-color: pink;
+      font-size: 20px;
+ }
+
+ input {
+      color: green;
+ }
+
+ .post button:hover {
+      background-color: #457b9d;
+      color: aliceblue;
+ }
+
+ a:hover {
+      text-decoration: underline;
+ }
+
+ h2:hover {
+      color: black;
+ }
+
+ .post button:active {
+      background-color: aqua;
+ }
+
+ h2::first-letter {
+      font-size: 30px;
+ }
+
+ p::first-line {
+      color: darkgreen;
+ }
+
+ p::selection {
+      background-color: orange;
+ }
+
+ button:hover {
+      background-color: olive;
+
+ }

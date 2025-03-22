@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width= , initial-scale=1.0">
+     <title>Forms Demo</title>
+</head>
+
+<body>
+     <h1>Forms Demo</h1>
+     <!--file:///C:/tacos?username=cute_karimat&password=12345&date=2024-12-21&number=21-->
+
+     <form action="/tacos">
+
+          <p><label for="username">Enter Your Username:</label>
+               <input type="username" placeholder="username" id="Username" name="username">
+          </p>
+          <p>
+               <label for="Password">Enter a password</label>
+               <input type="password" placeholder="password" id="password" name="password">
+          </p>
+          <p>
+               <label for="Date">Enter A Date</label>
+               <input type="date" placeholder="date" name="date">
+          </p>
+          <p>
+               <label for="Number">Enter a Number</label>
+               <input type="number" placeholder="number" name="number">
+          </p>
+          <button>Submit</button>
+     </form>
+     <h2>hijack searches</h2>
+     <h3>search reddit</h3>
+     <form action="https://www.reddit.com/search">
+          <input type="text" name="q">
+          <button>search reddit</button>
+     </form>
+     <h3>search google</h3>
+     <form action="https://www.google.com/search">
+          <input type="text" name="q">
+          <button>search google</button>
+     </form>
+     <h2>About Input!</h2>
+     <form action="/birds">
+          <input type="checkbox" name="Agree" id="Agree">
+          <label for="Agree"> I AGREE TO EVERYTHING</label>
+          <p>
+               <label for="S">Small:</label>
+               <input type="radio" name="size" id="S" value="cute">
+               <label for="M">Medium:</label>
+               <input type="radio" name="size" id="M" value="cute">
+               <label for="L">Large:</label>
+               <input type="radio" name="size" id="L" value="cute">
+          </p>
+          <p>
+               <label for="meal">PICK A MEAL</label>
+               <select name="meal" id="meal">
+                    <option value="amala">amala</option>
+                    <option value="rice">rice</option>
+                    <option value="garri">garri</option>
+               </select>
+          </p>
+          <p>
+               <label for="music">Music Level</label>
+               <input type="range" id="Music" min="10" max="100" name="music level">
+          </p>
+          <p>
+               <label for="request">For any Special Request</label>
+               <br>
+               <textarea name="request" rows="5" cols="20" name="Request" placeholder="type your request"
+                    id="request"></textarea>
+          </p>
+          <button>Submit</button>
+     </form>
+     <h2>Validation Demo</h2>
+     <form action="/dummy">
+          <label for="first">Enter Your First Name:</label>
+          <input type=text" id="first" name="first" required>
+          <p>
+               <label for="username"> Enter A Username</label>
+               <input type="text" id="username" name="username" minlength="5" maxlength="20" required>
+          </p>
+          <p>
+               <input type="email" required>
+          </p>
+          <button>Submit</button>
+     </form>
+
+
+     </form>
+
+</body>
+
+</html>
